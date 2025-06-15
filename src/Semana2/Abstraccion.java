@@ -28,7 +28,7 @@ class Perro extends Animal {
 
 public class Abstraccion {
     public static void main(String[] args) {
-        Animal miPerro = new Perro();
+        Animal miPerro = new Perro();  //Instanciamos
         miPerro.hacerSonido(); 
         miPerro.respirar();    
     }
